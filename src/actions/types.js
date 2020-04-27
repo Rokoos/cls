@@ -1,0 +1,3 @@
+export const FETCH_PROJECTS = "FETCH_PROJECTS";
+export const FETCH_PROJECT = "FETCH_PROJECT";
+export const SET_LOADING = "SET_LOADING";
