@@ -24,7 +24,7 @@ export default class Navbar extends React.Component {
       <nav className="navbar">
         <div className="nav-center">
           <Logo />
-          {/* <div className="nav-header"> */}
+
           <p className="header-title">CLS Instalacje Elektryczne</p>
 
           <IconButton
@@ -39,7 +39,6 @@ export default class Navbar extends React.Component {
             onClose={(value) => this.toggleDrawer(value)}
           />
         </div>
-        {/* </div> */}
       </nav>
     );
   }
