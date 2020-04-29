@@ -10,7 +10,7 @@ import "./styles/styles.scss";
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <BrowserRouter>
         <Header />
         <Route path="/" component={Main} />
