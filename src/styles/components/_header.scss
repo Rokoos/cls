@@ -1,7 +1,10 @@
 .navbar {
-  position: fixed;
+  // position: fixed;
+  margin-top: 0;
+  position: sticky;
   top: 0;
   width: 100%;
+  height: auto;
   // max-width: 1900px;
   background: #fff;
   // background-color: #ccc;
@@ -10,7 +13,8 @@
   border-bottom: 1px solid #008bcc;
 
   .nav-center {
-    // width: 80%;
+    // position: fixed;
+    width: 100%;
     // margin: 0 auto;
     display: flex;
     justify-content: space-evenly;

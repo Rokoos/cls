@@ -1,0 +1,57 @@
+/*====================
+        CARROUSEL
+======================*/
+
+.carrousel_wrapper {
+  background-color: aqua;
+  /* height: auto; */
+  margin-top: 4rem;
+  /* height: 300px; */
+  /* overflow: hidden; */
+}
+
+.carrousel_image {
+  position: relative;
+  width: 100%;
+  /* height: 300px; */
+  height: 400px !important;
+  background-size: cover !important;
+  background-position: center !important;
+  object-fit: cover !important;
+  /* background: cover center no-repeat; */
+}
+.slide_title {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  background: red;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+
+.artist_name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 160px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+}
+
+.artist_name .wrapper {
+  border: 2px solid white;
+  height: 121px;
+  margin: 6px;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  padding: 21px 70px 0px 70px;
+  text-transform: uppercase;
+}
