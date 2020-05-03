@@ -14,7 +14,6 @@ const Projects = ({ projects }) => {
               to={`/project/${project.id}`}
               key={project.id}
               color="primary"
-              // onClick={this.show(true)}
             >
               <p>{project.name}</p>
             </Link>

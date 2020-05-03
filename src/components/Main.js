@@ -6,8 +6,6 @@ import Slider from "./Slider/SliderView";
 import Contact from "./Contact";
 import Projects from "./Projects";
 
-import Carousel from "./Carroussel";
-
 class Main extends React.Component {
   componentDidMount() {
     this.props.startFetchProjects();
@@ -15,15 +13,12 @@ class Main extends React.Component {
   render() {
     return (
       <Fragment>
-        {/* <Carousel /> */}
-
         <Element name="aboutUs">
           <Slider />
         </Element>
         <Element name="projects">
           <Projects projects={this.props.projects} />
         </Element>
-
         <Element name="contact">
           <Contact />
         </Element>

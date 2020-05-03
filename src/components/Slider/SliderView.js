@@ -48,7 +48,6 @@ export default class SliderView extends React.Component {
           <p className="heading-secondary">Kim jesteśmy?</p>
         </div>
         <Slider
-          // className="slider"
           speed={1000}
           slidesToShow={1}
           slidesToScroll={1}
