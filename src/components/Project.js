@@ -45,7 +45,9 @@ const Project = ({ project }) => {
         {projects.map((project) => {
           return (
             <div key={project.id} className="project">
-              <p>{project.company}</p>
+              <p style={{ fontStyle: "italic", fontWeight: "bold" }}>
+                {project.company}
+              </p>
               <p>{project.date}</p>
               <p>
                 {project.area}m<sup>2</sup>
@@ -59,7 +61,7 @@ const Project = ({ project }) => {
 
   return (
     <div className="modal_box">
-      <h2>{name}</h2>
+      <p className="modal_box-title">{name}</p>
       <div className="modal_box-row">
         <div className="left">
           <p>Adres: </p>

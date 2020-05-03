@@ -10,7 +10,7 @@ const SideDrawer = (props) => {
       duration: 1500,
       delay: 100,
       smooth: true,
-      offset: -200,
+      offset: -230,
     });
     props.onClose(false);
   };
@@ -20,7 +20,15 @@ const SideDrawer = (props) => {
       open={props.open}
       onClose={() => props.onClose(false)}
     >
-      <List component="nav">
+      <List
+        style={{
+          color: "#777",
+          fontFamily: '"Kaushan Script", cursive',
+          fontSize: "1.2rem",
+          lineHeight: 1.5,
+        }}
+        component="nav"
+      >
         <ListItem button onClick={() => scrollToElements("aboutUs")}>
           Kim jesteśmy?
         </ListItem>
