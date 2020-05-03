@@ -10,7 +10,7 @@ const SideDrawer = (props) => {
       duration: 1500,
       delay: 100,
       smooth: true,
-      offset: -250,
+      offset: -150,
     });
     props.onClose(false);
   };

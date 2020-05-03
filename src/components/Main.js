@@ -17,8 +17,12 @@ class Main extends React.Component {
       <Fragment>
         {/* <Carousel /> */}
 
-        <Slider />
-        <Projects projects={this.props.projects} />
+        <Element name="aboutUs">
+          <Slider />
+        </Element>
+        <Element name="projects">
+          <Projects projects={this.props.projects} />
+        </Element>
 
         <Element name="contact">
           <Contact />
