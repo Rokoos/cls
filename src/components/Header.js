@@ -23,7 +23,7 @@ export default class Navbar extends React.Component {
     return (
       <nav className="navbar">
         <div className="nav-center">
-          {/* <Logo /> */}
+          <Logo />
 
           <p className="header-title">CLS Instalacje Elektryczne</p>
 

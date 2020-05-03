@@ -53,7 +53,7 @@ export default class SliderView extends React.Component {
           slidesToShow={1}
           slidesToScroll={1}
           infinite={true}
-          autoplay={true}
+          autoplay={false}
           autoplaySpeed={8000}
           pauseOnHover={false}
           easing="ease-in"

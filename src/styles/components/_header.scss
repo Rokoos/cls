@@ -1,33 +1,24 @@
 .navbar {
-  // position: fixed;
-  margin-top: 0;
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
-  height: auto;
-  // max-width: 1900px;
+  max-width: 1900px;
   background: #fff;
-  // background-color: #ccc;
   padding: 1rem;
   z-index: 1;
   border-bottom: 1px solid #008bcc;
 
   .nav-center {
-    // position: fixed;
     width: 100%;
-    // margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    // background-color: lightcoral;
 
     p.header-title {
-      // background-color: lawngreen;
       margin: 0;
       color: #777;
       font-family: "Kaushan Script", cursive;
-      font-size: 1.7rem;
-      // padding-left: 1rem;
+      font-size: 1.6rem;
     }
   }
 }
@@ -37,7 +28,7 @@
     .nav-center {
       p.header-title {
         padding: 1rem 0;
-        font-size: 2.2rem;
+        font-size: 2.1rem;
       }
     }
   }
@@ -59,6 +50,20 @@
     padding-right: 3rem;
     .nav-center {
       justify-content: space-between;
+
+      p.header-title {
+        font-size: 4.5rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .navbar {
+    .nav-center {
+      p.header-title {
+        font-size: 6rem;
+      }
     }
   }
 }

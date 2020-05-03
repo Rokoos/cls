@@ -15,14 +15,14 @@ class Main extends React.Component {
   render() {
     return (
       <Fragment>
-        <Carousel />
+        {/* <Carousel /> */}
+
+        <Slider />
         <Projects projects={this.props.projects} />
 
         <Element name="contact">
           <Contact />
         </Element>
-
-        {/* <Slider /> */}
       </Fragment>
     );
   }

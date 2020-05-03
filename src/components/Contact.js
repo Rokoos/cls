@@ -7,7 +7,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const Contact = () => {
   return (
-    <div className="center_wrapper" style={{ marginTop: "8rem" }}>
+    <div className="center_wrapper">
       <div className="title">
         <p className="heading-secondary">Skontaktuj się z nami!</p>
       </div>
@@ -79,7 +79,7 @@ const Contact = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Jesteśmy na Fejsie
+                      Jesteśmy na Facebooku
                     </a>
                   </div>
                 </div>
