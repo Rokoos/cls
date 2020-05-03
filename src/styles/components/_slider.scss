@@ -10,6 +10,7 @@
     .photo {
       width: 100%;
       height: 500px;
+
       background-size: cover;
       object-fit: cover;
     }
@@ -143,7 +144,11 @@
 
 @media (min-width: 1000px) {
   .aboutus {
+    margin-top: 18rem;
     .slide {
+      .photo {
+        height: 600px;
+      }
       .slide_box {
         .photo-one {
           width: 400px;
